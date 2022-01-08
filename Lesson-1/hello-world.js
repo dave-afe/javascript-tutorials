@@ -53,4 +53,13 @@ let students = [
         birthdate: new Date(1994,11, 20),
         isBrilliant: false
     }
-]
+];
+
+// Accessing Arrays in javascript
+
+firstStudent = students[0];
+secondStudent = students[1];
+lastStudent = students[students.length - 1];
+
+console.log(firstStudent)
+console.log(lastStudent.fullname);
