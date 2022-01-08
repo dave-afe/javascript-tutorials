@@ -25,3 +25,32 @@ let birthdate = person.birthDate;
 let sentence = `The name is ${nameOfPerson} and her age is ${age}
 she was born on ${birthdate} in the city of ${person.address.city} `;
 console.log(sentence)
+
+// Lessons on array in Javascript
+let names = [
+    "Alex",
+    "Jamila",
+    "Joe",
+    "Aisha"
+]
+
+let students = [
+    {
+        fullname: "Michael Adoa",
+        age: 23,
+        birthdate: new Date(1998, 3, 13),
+        isBrilliant: true
+    },
+    {
+        fullname: "Abena Serwaa",
+        age: 27,
+        birthdate: new Date(1999, 8, 20),
+        isBrilliant: true
+    },
+    {
+        fullname: "Killer Man",
+        age: 27,
+        birthdate: new Date(1994,11, 20),
+        isBrilliant: false
+    }
+]
